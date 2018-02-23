@@ -1,0 +1,18 @@
+<h1>Creer Formation</h1>
+<form name="userForm" method="POST" ng-submit="saveUser(formation)">
+
+	<label>Code Formation: <input type="text"
+		ng-model="formation.codeFormation" required /></label><br /> <label>Debut
+		Accreditation: <input type="date"
+		ng-model="formation.debutAccreditation" />
+	</label><br /> <label>Diplome: <input type="text"
+		ng-model="formation.diplome" /></label><br /> <label>Double
+		Diplome: <input type="text" ng-model="formation.doubleDiplome" />
+	</label><br /> <label>Fin Accreditation: <input type="date"
+		ng-model="formation.finAccreditation" /></label><br /> <label>No
+		Annee: <input type="number" ng-model="formation.n0Annee" />
+	</label><br /> <label>NomFormation: <input type="text"
+		ng-model="formation.nomFormation" /></label><br />
+
+	<button type="submit">save</button>
+</form>
